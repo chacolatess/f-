@@ -33,13 +33,8 @@ else n*factorial (n-1)
 let result = factorial 5
 type shape =
    | Circle of float 
-   | Rectangle of float * fsharp-console-apps
+   | 
 
-let area shape =
-match shape with 
-|Circle radius -> Math.PI *radius*radius
-
-|Rectangle (length,width) -> length*width
 
 let half x =x/2
 let result  4 |> squa|> half //(    )

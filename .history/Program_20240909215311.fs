@@ -37,9 +37,7 @@ type shape =
 
 let area shape =
 match shape with 
-|Circle radius -> Math.PI *radius*radius
-
-|Rectangle (length,width) -> length*width
+|Circle radius 
 
 let half x =x/2
 let result  4 |> squa|> half //(    )

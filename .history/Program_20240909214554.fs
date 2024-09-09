@@ -31,15 +31,8 @@ let rec factorial n =
 if n =1 then 1
 else n*factorial (n-1)
 let result = factorial 5
-type shape =
-   | Circle of float 
-   | Rectangle of float * fsharp-console-apps
 
-let area shape =
-match shape with 
-|Circle radius -> Math.PI *radius*radius
 
-|Rectangle (length,width) -> length*width
-
+let square x = x*x
 let half x =x/2
-let result  4 |> squa|> half //(    )
+let result  4 |> square|> half //()
